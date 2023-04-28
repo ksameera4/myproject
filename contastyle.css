@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.para{
+    font-size: 27px;
+    text-align: center;
+    font-family: cursive;
+}
+.card{
+    background-color: white;
+    width: 200px;
+    height: 230px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    float: right;
+}
+  
+.card:hover{
+    background-color: antiquewhite;
+    color: rgb(11, 161, 230);
+    transition: all 2s ease;
+    border: 1px solid black;
+}
+img{
+    border-radius: 20px 20px;
+}
+img:hover{
+    box-shadow: 0 0 40px rgb(11, 225, 229); 
+}
+  
